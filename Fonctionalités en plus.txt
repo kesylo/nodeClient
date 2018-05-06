@@ -1,5 +1,0 @@
-- Accepter les messages de maximum 10mb
-- Apllication des filtres
-	- valider toutes les addresses entrantes qui ne commencent pas par: loic
-	- Exemple: valider toutes les addresses Sortantes qui ne commencent pas par: loic
-
