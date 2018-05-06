@@ -4,15 +4,15 @@ let nodemailer = require('nodemailer');
 let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'virginmobil8@gmail.com',
-      pass: 'arafat1994'
+      user: email,
+      pass: pass
     }
 });
 
 
 let mailOptions = {
-    from: '"Keming 👻" <virginmobil8@gmail.com>',
-    to: "virginmobil8@gmail.com, keming.loic@yahoo.com",
+    from: '"email 👻" <email>',
+    to: "email",
     subject: 'Test du client mail ✔', 
     text: 'As tu recu mon message text', 
     html: '<h1>As tu recu mon message HTML</h1>'
